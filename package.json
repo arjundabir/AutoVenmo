@@ -1,0 +1,7 @@
+{
+  "name": "venmo-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Arjun Dabir <arjunadabir@gmail.com>",
+  "license": "MIT"
+}
