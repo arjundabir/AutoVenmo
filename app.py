@@ -17,9 +17,12 @@ user = users[0].id
 
 # find your approved payment methods. Look for extra docuementation from link above
 payment_methods = client.payment.get_payment_methods()
+
+# Might have to adjust this, location of payment method in list varies
 bank_id = payment_methods[1].id
 
 # complete transaction. Look for extra docuementation from link above. You can request or send.
 client.payment.send_money(0.01, "testing code", user)
 
+# Access Token lasts forever, make sure to delete it after use
 client.log_out("Bearer " + access_token)

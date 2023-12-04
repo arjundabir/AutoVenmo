@@ -71,23 +71,23 @@ $ crontab -e
 3. Using the guide below or crontab.guru enter this in your VIM editor on terminal.
    Notes: Start by pressing "I" on your keyboard to go on insert mode.
 
-# ┌───────────── minute (0 - 59)
+┌───────────── minute (0 - 59)
 
-# │ ┌───────────── hour (0 - 23)
+│ ┌───────────── hour (0 - 23)
 
-# │ │ ┌───────────── day of month (1 - 31)
+│ │ ┌───────────── day of month (1 - 31)
 
-# │ │ │ ┌───────────── month (1 - 12)
+│ │ │ ┌───────────── month (1 - 12)
 
-# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+│ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
 
-# │ │ │ │ │ 7 is also Sunday on some systems)
+│ │ │ │ │ 7 is also Sunday on some systems)
 
-# │ │ │ │ │
+│ │ │ │ │
 
-# │ │ │ │ │
+│ │ │ │ │
 
-# \* \* \* \* \* command_to_execute
+\* \* \* \* \* command_to_execute
 
 ```vim
 * * * * * /bin/bash ~/path/to/venmo_script.sh
