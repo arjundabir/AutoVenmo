@@ -93,6 +93,6 @@ $ crontab -e
 * * * * * /bin/bash ~/path/to/venmo_script.sh
 ```
 
-4. Press <kbd>esc</kbd> on your keyboard and then <kbd>:</kbd> + <kbd>w</kbd> + <kbd>q</kbd> and finally hit <kbd>Enter</kbd>
+4. Press <kbd>esc</kbd> on your keyboard and then <kbd>:</kbd> + <kbd>W</kbd> + <kbd>Q</kbd> and finally hit <kbd>Enter</kbd>
 
 5. Good job, you're done!
